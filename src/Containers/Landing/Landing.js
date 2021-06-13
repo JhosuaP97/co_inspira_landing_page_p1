@@ -10,12 +10,13 @@ import {
 import Navbar from "Components/Navbar";
 import Section from "Components/Section";
 import Button from "Components/Button";
+
 const Landing = () => {
   return (
     <>
       <Container>
         <Navbar />
-        <Section>
+        <Section background="img/bg1110.png" responsiveBg="img/bg.png">
           <Content>
             <Article>
               <Title>
@@ -27,7 +28,7 @@ const Landing = () => {
               vehicula quam. Vestibulum a orci quis libero blandit pretium at
               vehicula quam. Vestibulum a orci quis libero blandi.
               <ContainerBtn>
-                <Button text="lorem" fill={true} />
+                <Button text="lorem" fill="true" />
                 <Button text="lorem" />
               </ContainerBtn>
             </Info>

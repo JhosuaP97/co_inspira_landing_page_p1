@@ -1,3 +1,4 @@
+import SectionTitle from "Components/Title";
 import React from "react";
 import {
   Container,

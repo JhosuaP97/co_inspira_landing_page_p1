@@ -3,7 +3,7 @@ import React from "react";
 // Style
 import { TitleWrapper, TitleStyle } from "./title.styled";
 
-const Title = ({ title, textColor, headingColor }) => {
+const SectionTitle = ({ title, textColor, headingColor }) => {
   return (
     <TitleWrapper>
       <TitleStyle textColor={textColor} headingColor={headingColor}>
@@ -13,4 +13,4 @@ const Title = ({ title, textColor, headingColor }) => {
   );
 };
 
-export default Title;
+export default SectionTitle;

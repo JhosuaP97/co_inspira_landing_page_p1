@@ -42,7 +42,6 @@ html {
   }
   body {
     width: 100%;
-    height: 100vh;
     font-family:${fonts.base};
     background: linear-gradient(360deg, #1AC4A5 0%, #38AAE4 100%) no-repeat ;
     

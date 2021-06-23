@@ -1,7 +1,5 @@
 import React from "react";
-// import Button from "Components/Button";
-// import SectionTitle from "Components/Title";
-// import { Colors } from "Styles/GlobalStyles";
+
 import { Content, GeneralInformation, Description } from "./styles";
 
 const Footer = () => {

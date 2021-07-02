@@ -5,6 +5,7 @@ export const ContentImages = styled.div`
   grid-template-columns: repeat(8, 1fr);
   grid-column: 5/-1;
   position: relative;
+  padding: 0 0 50px 0;
 
   & > div:first-of-type {
     grid-column: 2 / span 2;

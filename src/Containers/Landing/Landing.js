@@ -1,17 +1,10 @@
 import React from "react";
-import {
-  Container,
-  Content,
-  Title,
-  Article,
-  Info,
-  ContainerBtn,
-} from "./styles";
+import { Container } from "./styles";
 import Navbar from "Components/Navbar";
 import Section from "Components/Section";
-import Button from "Components/Button";
 import AboutUs from "Components/AboutUs";
 import Hero from "Components/Hero";
+import Bootcamps from "Components/BootCamps";
 
 const Landing = () => {
   return (
@@ -23,6 +16,12 @@ const Landing = () => {
         </Section>
         <Section>
           <AboutUs />
+        </Section>
+        <Section
+          background="img/upcontainer.png"
+          responsiveBg="img/upcontainer.png"
+        >
+          <Bootcamps />
         </Section>
       </Container>
     </>

@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const TitleWrapper = styled.div`
   position: relative;
   width: fit-content;
+  justify-self: center;
+  z-index: 1;
 `;
 
 export const TitleStyle = styled.h1`

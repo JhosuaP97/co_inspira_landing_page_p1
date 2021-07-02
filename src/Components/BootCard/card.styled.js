@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   width: 280px;
+  background-color: #eeeeee;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   .o_card_image {

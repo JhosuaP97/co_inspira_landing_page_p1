@@ -11,6 +11,7 @@ export const Colors = {
   secundary: "#00D8FF",
   white: "#FDFDFD",
   black: "#1f1f1f",
+  purple: "#7d77e6"
 };
 export const GlobalStyles = createGlobalStyle`
 

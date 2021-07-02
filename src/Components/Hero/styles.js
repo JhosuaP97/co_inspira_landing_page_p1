@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Content = styled.div`
   grid-column: 6/12;
   margin: 1rem 0;
+  padding: 0 0 200px 0;
 
   @media only screen and (max-width: 992px) {
     grid-column: 2 /10;

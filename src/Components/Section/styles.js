@@ -5,7 +5,7 @@ export const SectionGrid = styled.div`
   width: 100%;
   font-family: Oxygen;
   font-weight: 400;
-  padding: 0 0 200px 0;
+
   background: ${({ background }) =>
     background !== "" && `url(${background}) no-repeat`};
   grid-template-columns: repeat(12, 1fr);

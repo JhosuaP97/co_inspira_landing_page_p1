@@ -9,14 +9,9 @@ export const Content = styled.div`
   }
 `;
 
-export const Article = styled.article`
-  max-width: 659px;
-  width: 100%;
-`;
-
 export const Title = styled.h1`
   grid-column: 5/10;
-  font-size: 39px;
+  font-size: 2.4375rem;
   font-weight: 400;
 
   &::after {
@@ -24,18 +19,26 @@ export const Title = styled.h1`
     padding: 0 1rem;
     font-size: 18px;
   }
+  @media only screen and (max-width: 992px) {
+    grid-column: 2 /-1;
+
+    h1 {
+      font-size: 19px;
+    }
+  }
 `;
 
 export const Info = styled.div`
-  grid-column: 5/10;
-  max-width: 505px;
-  text-align: justify;
+  text-align: left;
   margin: 20px 0;
+`;
+
+export const Text = styled.p`
+  margin: 0 0 30px;
 `;
 
 export const ContainerBtn = styled.div`
   grid-column: 5/7;
   display: flex;
-  margin: 36px 0;
   gap: 20px;
 `;

@@ -12,7 +12,6 @@ export const SectionGrid = styled.div`
 
   @media only screen and (max-width: 992px) {
     width: 100%;
-    height: 100vh;
     background: ${({ responsiveBg }) =>
       responsiveBg !== "" && `url(${responsiveBg}) no-repeat`};
     grid-template-columns: repeat(12, 1fr);

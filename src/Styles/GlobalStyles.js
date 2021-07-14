@@ -41,9 +41,10 @@ html {
     list-style: none;
   }
   body {
-   
+    width: 100%;
     font-family:${fonts.base};
-
+    background: linear-gradient(360deg, #1AC4A5 0%, #38AAE4 100%) no-repeat ;
+    
   }
   #root{
     width: 100%;
